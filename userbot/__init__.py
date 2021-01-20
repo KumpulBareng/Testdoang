@@ -35,8 +35,8 @@ if version_info < (3, 8):
     quit(1)
 
 # Telegram App KEY and HASH
-API_KEY = os.environ.get("API_KEY", None)
-API_HASH = os.environ.get("API_HASH", None)
+API_KEY = os.environ.get("API_KEY", '2797430')
+API_HASH = os.environ.get("API_HASH", 'e50d85ab32339a60f9781b39784d91de')
 
 
 # Userbot Session String
